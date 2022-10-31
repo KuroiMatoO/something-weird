@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Yay</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Доброго времени суток.</h1>
+      <p>
+        <!-- Это не совсем пожелание или предложение. Хочу просто поделиться полезной
+        на мой взгляд штукой со всеми кто в этом заинтересован и в идеале
+        распространить это сообщение(вкратце)по рабочим чатам. А поделиться я
+        хотел бы темной цветовой схемой для веб-интерфейса обработки документов.
+      </p> -->
+      </p>
+
+      <p>
+        Я, как и думаю многие из вас, один из тех людей которые сидят подолгу
+        перед монитором, зачастую ещё и не при самом хорошем внешнем освещении, что как
+        известно не очень способствует сохранению хорошего зрения в длительной
+        перспективе, особенно при работе с большими объемами текста.
+      </p>
+      <p>
+        Согласно
+        <a href="https://www.nature.com/articles/s41598-018-28904-x">
+          исследованию</a
+        >
+        (англ.) чтение <span class="black-on-white">чисто чёрного текста на чисто белом фоне</span>  излишне
+        стимулирует определённые клетки глаза и может вызывать близорукость, тогда
+        как при инверсии цветов ситуация улучшается. К сожалению не всё так
+        просто и <span class="white-on-black"> чисто белый текст на чисто чёрном фоне </span>тоже не лучший вариант
+        из-за т.н. эффекта "ореола", который заключается в размытости белого
+        текста, который особенно сильно проявляется у людей с астигматизмом.</p>
+        <p>Выглядит это примерно так - слева то как видит здоровый человек, справа как человек с астигматизмом:</p>
+        <div class="container-fluid p-4 pt-2 pb-4">
+          <div class="row row-cols-2">
+            <img src="you.jpg" class="img-fluid" alt="you">
+            <img src="me.jpg" class="img-fluid" alt="me">
+          </div>
+        </div> 
+        <p>Поэтому в идеале контрастность должна быть сбалансирована, чего
+        к сожалению нет в стандартной цветовой схеме.
+      </p>
+      <p>
+        По этой причине мной был написан юзерстиль для браузера. Сразу уточню,
+        что я не профессиональный верстальщик и это просто моё хобби, которым я
+        занимаюсь в свободное время, поэтому с технической точки зрения код не
+        самый оптимальный, но в процессе тестирования особых ошибок я не
+        обнаружил.
+      </p>
+      <div id="carouselFade" class="carousel slide carousel-dark carousel-fade p-4 pt-2 pb-4" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="before.png" class="d-block w-100" alt="before">
+          </div>
+          <div class="carousel-item">
+            <img src="after.png" class="d-block w-100" alt="after">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        Для тех кто впервые слышит про юзерстили, то в двух словах это набор
+        специальных комманд с помощью которых вы можете поменять внешний вид
+        любой страницы в интернете под свой вкус. Чтобы использовать юзерстиль
+        никаких особых знаний не требуется, вам нужно будет лишь нажать на пару
+        кнопок.
+      </p>
+      <p>
+        Для начала нужно установить аддон (дополнение) для вашего браузера под
+        названием Stylus. Вот ссылки для нескольких популярных браузеров, где
+        нужно просто нажать на кнопку Install (установить):
+      </p>
+
+      <ul>
+        <li>
+          <a
+            href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/"
+            target="”_blank”">
+            Mozilla Firefox
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne?hl=en</stylus"
+            target="”_blank”">
+            Google Chrome
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://addons.opera.com/en/extensions/details/stylus/"
+            target="”_blank”">
+            Opera
+          </a>
+        </li>
+      </ul>
+      <p>
+        Если вы пользуетесь другими браузерами, то они зачастую поддерживают
+        установку аддонов из магазина приложений перечисленных выше браузеров,
+        например яндекс браузер поддерживает установку аддонов из магаизина
+        приложений для Оперы.
+      </p>
+      <p>
+        После установки аддона вам останется лишь установить сам юзерстиль по
+        этой
+        <a
+          href="https://userstyles.world/style/6555/mbo30-qol-dark"
+          target="”_blank”"
+          >ссылке</a
+        >
+      </p>
+      <p>
+        Процесс ровно такой же - нажать на кнопку Install. Если вы захотите
+        отключить юзерстиль и вернуться к стандартным цветам, просто отключите
+        его нажав на галочку напротив названия в панели Stylus, которая обычно
+        расположена в верхней правой части браузера:
+      </p>
+      <img src="stylus_toggle.png" class="img-fluid mx-auto d-block p-4 pt-2 pb-4" alt="toggle">
+      <p>
+        Предупрежу что из-за резкой смены цветов вам почти наверняка будет
+        неудобно и непривычно сразу после установки и потребуется определенноё
+        время для привыкания, но не спешите отключать юзерстиль, попробуйте
+        немного подождать и ваши глаза довольно быстро привыкнут. Мне на это
+        потребовалось около двух часов.
+      </p>
+      <p>
+        При желании вы довольно просто можете найти юзерстили для большинства
+        популярных сайтов, чтобы при переключении с рабочего сайта на
+        какой-нибудь гугл вас не ослеплял резкий белый цвет фона. У многих
+        сайтов (тот же гугл или вк) уже есть встроенная тёмная тема, которую
+        можно включить в настройках внутри самого сайта, но если таковой не
+        имеется, то сторонюю тёмную тему можно найти через Stylus. Для этого
+        надо открыть панель инструментов Stylus и нажать на "Find Styles"
+      </p>
+      <div id="carouselFade2" class="carousel slide carousel-dark carousel-fade p-4 pt-2 pb-4" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselFade2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselFade2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselFade2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="stylus_search1.png" class="d-block w-100" alt="before">
+          </div>
+          <div class="carousel-item">
+            <img src="stylus_search2.png" class="d-block w-100" alt="after">
+          </div>
+          <div class="carousel-item">
+            <img src="stylus_search3.png" class="d-block w-100" alt="before">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselFade2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        Зачастую темные темы висят в топе выдачи, но если вы не найдёте
+        удовлетворяющую вас тему или страниц с результатами будет слишком много,
+        то можно уточнить запрос набрав в строке поиска например "Dark"
+        предварительно убрав галочку с "Also search global styles" чтобы поиск
+        производился только для текущего сайта
+      </p>
+      <p>
+        Чтобы установить стиль просто нажмите на него и он тут же применится.
+        Если он вам не понравится его можно будет тут же удалить повторно нажав
+        на него в выдаче.
+      </p>
+      <p>
+        Тут наверное следует уточнить что не рекомендуется применять более
+        одного стиля на один сайт одновременно, так как могут возникнуть ошибки.
+      </p>
+      <p>
+        Если же в итоге вы всё равно решите остаться на стандартном белом
+        оформлении, то рекомендую вам пользоваться программой
+        <a href="https://justgetflux.com/">f.lux</a>, которая регулирует
+        цветопередачу по мере захода солнца в вашем регионе, смещаясь в более
+        теплые цвета ночью и в более холодные днём, что также бережёт ваши
+        глаза. Я например использую её даже с тёмными темами и её аналоги на телефонах. 
+      </p>
+      <!--[if lt IE 7]>
+        <p class="browsehappy">
+          You are using an
+          <strong>outdated</strong>
+          browser. Please
+          <a href="#">upgrade your browser</a>
+          to improve your experience.
+        </p>
+      <![endif]-->
+    </div>
+    <script src="script.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
